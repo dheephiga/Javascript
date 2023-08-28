@@ -22,8 +22,11 @@ studs%=2;
 
 document.getElementById("p4").innerHTML = "studs: " + studs;
 
+//getting input from html and using it
 document.getElementById("myButton").onclick = function(){
     username = document.getElementById("myText").value;
     console.log(username);
     document.getElementById("myLabel").innerHTML = "Hello " +username;
 }
+
+//type conversion
