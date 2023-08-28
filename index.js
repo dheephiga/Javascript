@@ -9,3 +9,4 @@ let check = true;
 console.log(age); 
 console.log(fname+ " " +lname);
 
+document.getElementById("p1").innerHTML = "Hello " + fname+ ", " + lname;
