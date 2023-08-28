@@ -1,4 +1,4 @@
-console.log("this will print the code in to the console tab of the bropwser");
+console.log("this will print the code in to the console tab of the browser");
 
 window.alert("POPUP MESSAGE"); // this will show a alert popup in the browser
 
@@ -10,3 +10,5 @@ console.log(age);
 console.log(fname+ " " +lname);
 
 document.getElementById("p1").innerHTML = "Hello " + fname+ ", " + lname;
+document.getElementById("p2").innerHTML = "You are " + age;
+document.getElementById("p3").innerHTML = "Enrolled: " + check;
