@@ -31,3 +31,6 @@ document.getElementById("myButton").onclick = function(){
 
 //type conversion
 
+let a = 9;
+typeof(a);
+console.log(Number(a));
