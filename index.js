@@ -26,11 +26,13 @@ document.getElementById("p4").innerHTML = "studs: " + studs;
 document.getElementById("myButton").onclick = function(){
     username = document.getElementById("myText").value;
     console.log(username);
+    console.log(typeof(username)); //string
+
     document.getElementById("myLabel").innerHTML = "Hello " +username;
 }
 
 //type conversion
-
+console.log(typeof(username));
 let a = 9;
-typeof(a);
+console.log(typeof(a));
 console.log(Number(a));
