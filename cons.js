@@ -20,11 +20,13 @@
 // console.log(a);
 
 //hypotenuse - finding c = sqrt(a)
-document.getElementById("calculate").onclick = function()
+document.getElementById("calc").onclick = function()
 {
-let a = document.getElementById("avalue");
+let a = document.getElementById("avalue").value;
 a = Number(a);
-let b = document.getElementById("bvalue")
+let b = document.getElementById("bvalue").value;
 b = Number(b);
 let c = (Math.sqrt(((Math.pow(a,2)) + (Math.pow(b,2)))));
+
+document.getElementById("clabel").innerHTML = "Side C: " + c;
 }
