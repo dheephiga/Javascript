@@ -18,3 +18,5 @@
 
 // a = Math.PI;
 // console.log(a);
+
+//hypotenuse - finding
