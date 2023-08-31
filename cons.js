@@ -19,4 +19,9 @@
 // a = Math.PI;
 // console.log(a);
 
-//hypotenuse - finding
+//hypotenuse - finding c = sqrt(a)
+let a = window.prompt("A: ");
+a = Number(a);
+let b = window.prompt("B: ");
+b = Number(b);
+console.log(Math.sqrt(((Math.pow(a,2)) + (Math.pow(b,2)))));
