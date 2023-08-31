@@ -3,4 +3,4 @@ let r,circum;
 
 r = window.prompt("Radius: ");
 r = (Number(radius));
-circum = r * pi
+circum = r * pi;
