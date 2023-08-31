@@ -41,4 +41,7 @@ console.log(typeof(a));
 console.log(Number(a));
 age = (Number(age))+1;
 //age++;
+
+// string number boolean
+//empty string is false in boolean
 console.log("You turn ",age, " this year");
