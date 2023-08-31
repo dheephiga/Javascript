@@ -20,8 +20,8 @@
 // console.log(a);
 
 //hypotenuse - finding c = sqrt(a)
-let a = window.prompt("A: ");
+let a = 
 a = Number(a);
-let b = window.prompt("B: ");
+let b = 
 b = Number(b);
 console.log(Math.sqrt(((Math.pow(a,2)) + (Math.pow(b,2)))));
