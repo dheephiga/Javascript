@@ -5,7 +5,7 @@
 // r = (Number(r));
 // console.log(circum = r * pi);
 
-let a = 4.46;
+// let a = 4.46;
 
 //a = Math.floor(a); //lower
 //console.log(a);
@@ -16,5 +16,5 @@ let a = 4.46;
 //a = Math.round(a)
 // console.log(a);
 
-a = Math.PI;
-console.log(a);
+// a = Math.PI;
+// console.log(a);
