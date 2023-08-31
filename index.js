@@ -1,8 +1,11 @@
 console.log("this will print the code in to the console tab of the browser");
 
-window.alert("POPUP MESSAGE"); // this will show a alert popup in the browser
+//window.alert("POPUP MESSAGE"); // this will show a alert popup in the browser
 
-let age =21;
+let age = window.prompt("How old are you?");
+age +=1;
+console.log("Happy birthday you turn ",age, " this year"); //Happy birthday you turn  161  this year
+
 let fname = "John";
 let lname = "Doe";
 let check = true;
