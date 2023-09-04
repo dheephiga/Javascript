@@ -9,7 +9,7 @@ function checkAge(age)
 }
 
 let win = false;
-//console.log(checkWin(win));
+//console.l og(checkWin(win));
 checkWin(win);
 function checkWin(win){
     win ? console.log("You won") : console.log("Better Luck Next time");
