@@ -1,10 +1,16 @@
 let myNum = 123456.8789;
+let myPercent= .101;
+
+let myDegree = 89;
 // myNum = myNum.toLocaleString("en-US",{style:"currency",currency:"USD"});
 
 // myNum = myNum.toLocaleString("hi-IN",{style:"currency",currency:"INR"});
 
 // myNum = myNum.toLocaleString("de-DE",{style:"currency",currency:"EUR"});
 
-myNum = myNum.toLocaleString(undefined, {style:"percent"})
+//myPercent = myPercent.toLocaleString(undefined, {style:"percent"})
 
-console.log(myNum);
+myDegree = myDegree.toLocaleString(undefined,{style:"unit",unit:"celsius"})
+//console.log(myPercent);
+
+console.log(myDegree);
