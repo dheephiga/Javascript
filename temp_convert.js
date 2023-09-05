@@ -11,10 +11,16 @@ document.getElementById("submitButton").onclick = function()
     else if(document.getElementById("fButton").checked)
     {
         let temp = document.getElementById("temp").value;
-        document.getElementById("result").innerHTML= (temp*(9/5))+32;
+        // document.getElementById("result").innerHTML= (temp*(9/5))+32;
+        document.getElementById("result").innerHTML = faren(temp);
     }
     else
     {
         document.getElementById("result").innerHTML= "select a unit";
     }
+}
+
+function faren(temp)
+{
+    return (temp*(9/5) + 32);
 }
