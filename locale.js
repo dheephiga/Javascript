@@ -5,6 +5,6 @@ let myNum = 123456.8789;
 
 // myNum = myNum.toLocaleString("de-DE",{style:"currency",currency:"EUR"});
 
-myNum = myNu
+myNum = myNum.toLocaleString(undefined, {style:"percent"})
 
 console.log(myNum);
