@@ -3,7 +3,7 @@ let guesses = 0;
 
 document.getElementById("submitButton").onclick = function()
 {
-   let guess = document.getElementById("gues").value;
+   let guess = document.getElementById("guess").value;
 
    guesses++;
    
