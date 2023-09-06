@@ -1,7 +1,26 @@
 //function without a name
 
-const greet = function ()
+ let count = 0;
+
+// function increaseCount()
+// {
+//     count++;
+//     document.getElementById("myLabel").innerHTML=count;
+// }
+
+// function decreaseCount()
+// {
+//     count--;
+//     document.getElementById("myLabel").innerHTML=count;
+// }
+
+document.getElementById("decreaseButton").onclick = function()
 {
-    console.log("Hello");
+    count--;
+  document.getElementById("myLabel").innerHTML=count;
 }
-greet();
+
+document.getElementById("increaseButton").onclick = function(){
+    count++;
+    document.getElementById("myLabel"),innerHTML =count;
+}
