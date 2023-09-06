@@ -31,3 +31,15 @@ console.log("reverse");
 
 for(let i =prices.length-1;i>=0;i--)
     console.log(prices[i]);
+
+for(let i of prices)
+    console.log(i);
+
+//array sorting
+fruits = fruits.sort();
+console.log(fruits);
+
+//reverser sorting
+fruits = fruits.sort().reverse();
+for(let fruit of fruits)
+    console.log(fruit)
