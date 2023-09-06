@@ -18,4 +18,16 @@ console.log(fruits.length);
 
 console.log(fruits.indexOf("orange"));
 
-console.log(fruits.indexOf("lemon"));
+console.log(fruits.indexOf("lemon")); 
+
+//loop through
+
+let prices = [12,52,12.36,45.69,78.00];
+
+for(let i =0;i<prices.length;i++)
+    console.log(prices[i])
+
+console.log("reverse");
+
+for(let i =prices.length-1;i>=0;i--)
+    console.log(prices[i]);
